@@ -1,20 +1,20 @@
-For the input:
+For the input data:
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
 Explanation:
 
 1. Data Loading and Preprocessing:
-=> The diabetes data is loaded and standardized using StandardScaler.
-=> The data is split into training and testing sets.
+The diabetes data is loaded and standardized using StandardScaler.
+The data is split into training and testing sets.
 
-2. Model Training:
+3. Model Training:
 The SVM model is trained using the training set.
 
-3. Tkinter GUI Setup:
-=> A main window is created with Tkinter.
-=> Labels and entry fields are set up for user input (one for each feature).
-=> A "Predict" button is added that triggers the make_prediction function.
-=> Prediction Function (make_prediction):
+4. Tkinter GUI Setup:
+A main window is created with Tkinter.
+Labels and entry fields are set up for user input (one for each feature).
+A "Predict" button is added that triggers the make_prediction function.
+Prediction Function (make_prediction):
 
 The function retrieves input from the user, converts it to the appropriate format, and standardizes it.
 It then uses the trained SVM model to predict whether the person is diabetic or not.
